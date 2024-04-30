@@ -1,0 +1,104 @@
+{
+    "users": [
+      {
+        "username": "user1",
+        "preferences": {
+          "favoriteGenres": ["Action", "Comedy", "Drama"],
+          "dislikedGenres": ["Horror"]
+        },
+        "watchHistory": [
+          {
+            "contentId": "movie1",
+            "watchedOn": "2024-04-30T08:00:00Z",
+            "rating": 4
+          },
+          {
+            "contentId": "tvshow1",
+            "watchedOn": "2024-04-29T08:00:00Z",
+            "rating": 5
+          }
+        ]
+      },
+      {
+        "username": "user2",
+        "preferences": {
+          "favoriteGenres": ["Fantasy", "SciFi"],
+          "dislikedGenres": ["Romance"]
+        },
+        "watchHistory": [
+          {
+            "contentId": "movie2",
+            "watchedOn": "2024-04-28T08:00:00Z",
+            "rating": 3
+          },
+          {
+            "contentId": "tvshow2",
+            "watchedOn": "2024-04-27T08:00:00Z",
+            "rating": 4
+          }
+        ]
+      }
+    ],
+    "movies": [
+      {
+        "title": "The Matrix",
+        "description": "A computer hacker learns about the true nature of reality and his role in the war against its controllers.",
+        "genres": ["Action", "SciFi"],
+        "releaseDate": "1999-03-31T08:00:00Z",
+        "director": "Lana Wachowski, Lilly Wachowski",
+        "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"]
+      },
+      {
+        "title": "Inception",
+        "description": "A thief who enters the dreams of others to steal their secrets from their subconscious.",
+        "genres": ["Action", "Adventure", "SciFi"],
+        "releaseDate": "2010-07-16T08:00:00Z",
+        "director": "Christopher Nolan",
+        "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"]
+      }
+    ],
+    "tvShows": [
+      {
+        "title": "Breaking Bad",
+        "description": "A high school chemistry teacher turned methamphetamine manufacturer.",
+        "genres": ["Crime", "Drama", "Thriller"],
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "seasonNumber": 1,
+            "releaseDate": "2008-01-20T08:00:00Z",
+            "director": "Vince Gilligan",
+            "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"]
+          },
+          {
+            "episodeNumber": 1,
+            "seasonNumber": 2,
+            "releaseDate": "2009-03-08T08:00:00Z",
+            "director": "Vince Gilligan",
+            "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn"]
+          }
+        ]
+      },
+      {
+        "title": "Stranger Things",
+        "description": "A group of kids deals with supernatural occurrences in their small town.",
+        "genres": ["Drama", "Fantasy", "Horror"],
+        "episodes": [
+          {
+            "episodeNumber": 1,
+            "seasonNumber": 1,
+            "releaseDate": "2016-07-15T08:00:00Z",
+            "director": "The Duffer Brothers",
+            "actors": ["Millie Bobby Brown", "Finn Wolfhard", "Winona Ryder"]
+          },
+          {
+            "episodeNumber": 1,
+            "seasonNumber": 2,
+            "releaseDate": "2017-10-27T08:00:00Z",
+            "director": "The Duffer Brothers",
+            "actors": ["Millie Bobby Brown", "Finn Wolfhard", "Winona Ryder"]
+          }
+        ]
+      }
+    ]
+  }
